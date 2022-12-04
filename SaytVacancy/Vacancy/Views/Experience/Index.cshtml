@@ -1,0 +1,34 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.ExperienceDto
+@model IEnumerable<Experience>
+
+@{
+}
+
+<h1>Досвід</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ExperienceId</th>
+            <th>ExperienceName </th>           
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.ExperienceId</td>
+                <td>@u.ExperienceName </td>
+                
+                <td>
+                    <a href="/users/edit/@u.ExperienceId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.ExperienceId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

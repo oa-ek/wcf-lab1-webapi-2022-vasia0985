@@ -1,0 +1,33 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.EducationDto
+@model IEnumerable<Education>
+
+@{
+}
+
+<h1>Освіта</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>EducationId</th>
+            <th>EducationName </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.EducationId</td>
+                <td>@u.EducationName </td>
+                
+                <td>
+                    <a href="/users/edit/@u.EducationId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.EducationId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

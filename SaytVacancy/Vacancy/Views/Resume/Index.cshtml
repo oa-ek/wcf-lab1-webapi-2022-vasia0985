@@ -1,0 +1,39 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository
+@using Vacancy.Repository.Dto.EducationDto
+@using Vacancy.Repository.Dto.SkillDto
+@using Vacancy.Repository.Dto.ExperienceDto
+@using Vacancy.Repository.Dto.ResumeDto
+@model IEnumerable<Resume>
+
+@{
+}
+
+ <div class="float-end">
+    <a href="/Resume/AddResume" class="btn btn-outline-primary">Додати </a>
+   </div>
+
+<h1>Резюме</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Education</th>      
+            <th>Skill </th>        
+            <th>Experience </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            
+              <tr>  
+                <td>@u.Education.EducationName </td>               
+                <td>@u.Skill.SkillName</td>                  
+                <td>@u.Experience.ExperienceName </td>                   
+            </tr>                 
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,44 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.InformationDto
+@model IEnumerable<Information>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/cabinet/create" class="btn btn-outline-primary">Додати iнформацію про компанію</a>
+</div>
+
+
+<h1>Іформація компанії</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>InformationId</th>
+            <th>InformationName  </th>
+            <th>u.Companies</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.InformationId</td>
+                <td>@u.InformationName </td>
+                <td>@u.Companies</td>
+
+
+                <td>
+                    <a href="/users/edit/@u.InformationId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.InformationId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

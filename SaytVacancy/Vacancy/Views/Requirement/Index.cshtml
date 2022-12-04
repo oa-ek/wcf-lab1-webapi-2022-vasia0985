@@ -1,0 +1,41 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.RequirementDto
+@model IEnumerable<Requirement>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/cabinet/create" class="btn btn-outline-primary">Додати вимоги</a>
+</div>
+
+
+<h1>Вимоги</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>RequirementId</th>
+            <th>equirementName</th>
+            <th>Vacancie</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.RequirementId</td>
+                <td>@u.RequirementName </td>
+                <td>@u.Vacancie</td>
+
+
+                <td>
+                    <a href="/users/edit/@u.RequirementId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.RequirementId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

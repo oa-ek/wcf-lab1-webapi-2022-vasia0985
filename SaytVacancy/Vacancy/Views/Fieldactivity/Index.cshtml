@@ -1,0 +1,43 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.FieldactivityDto
+@model IEnumerable<Fieldactivity>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/cabinet/create" class="btn btn-outline-primary">Додати діяльність</a>
+</div>
+
+
+<h1>Список діяльностів</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>FieldactivityId</th>
+            <th>FieldactivityName </th>
+            <th>u.Companies</th>
+           
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.FieldactivityId</td>
+                <td>@u.FieldactivityName </td>
+                <td>@u.Companies</td>
+
+
+                <td>
+                    <a href="/users/edit/@u.FieldactivityId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.FieldactivityId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

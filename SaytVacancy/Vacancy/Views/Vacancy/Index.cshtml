@@ -1,0 +1,43 @@
+﻿﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.VacancyDto
+@using Vacancy.Repository.Dto.AboutvacancieDto
+@using Vacancy.Repository.Dto.CompanyDto
+@using Vacancy.Repository.Dto.EmployerDto
+@using Vacancy.Repository.Dto.RequirementDto
+
+@model IEnumerable<Vacancy>
+
+@{
+}
+
+
+
+ <h1>Вакансії</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+           
+            <th>ПроВакансію</th>
+            <th>Компанія</th>
+            <th>Роботодавець</th>
+            <th>Вимоги</th>
+        </tr>            
+            
+       
+    </thead>
+    <tbody>
+        @foreach(var u in Model)
+        {
+            <tr>
+                <td>@u.Aboutvacancie.AboutvacancieName</td>
+                <td>@u.Company.Information.InformationName</td>
+                <td>@u.Employer.EmployerName</td>
+                <td>@u.Requirement.RequirementName</td> 
+                <td>@u.Company.Logotype.LogotypeName</td>
+                <td>@u.Company.Fieldactivity.FieldactivityName</td>
+            </tr>
+        }
+    </tbody>
+</table>

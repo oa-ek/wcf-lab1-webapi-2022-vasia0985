@@ -1,0 +1,41 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.EmployerDto
+@model IEnumerable<Employer>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/cabinet/create" class="btn btn-outline-primary">Додати роботодавець</a>
+</div>
+
+
+<h1>Роботодавець</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>EmployerId</th>
+            <th>EmployerName </th>
+            <th>Vacancie</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.EmployerId</td>
+                <td>@u.EmployerName </td>
+                <td>@u.Vacancie</td>
+
+
+                <td>
+                    <a href="/users/edit/@u.EmployerId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.EmployerId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

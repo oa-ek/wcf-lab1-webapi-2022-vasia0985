@@ -1,0 +1,43 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.LogotypeDto
+@model IEnumerable<Logotype>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/cabinet/create" class="btn btn-outline-primary">Додати логотоп</a>
+</div>
+
+
+<h1>Логотип</h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>LogotypeId</th>
+            <th>LogotypeName </th>
+            <th>Companies</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.LogotypeId</td>
+                <td>@u.LogotypeName </td>
+                <td>@u.Companies</td>
+
+
+                <td>
+                    <a href="/users/edit/@u.LogotypeId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.LogotypeName" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

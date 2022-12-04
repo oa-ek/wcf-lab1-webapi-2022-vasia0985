@@ -1,0 +1,38 @@
+﻿@using Vacancy.Core
+@using Vacancy.Repository.Dto.AboutvacancieDto
+@model IEnumerable<Aboutvacancie>
+
+@{
+}
+
+<div class="float-end">
+    <a href="/aboutvacancie/aboutadd" class="btn btn-outline-primary">Додати </a>
+</div>
+
+
+<h1>Опис </h1>
+<hr />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>AboutvacancieId</th>
+            <th>AboutvacancieName</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.AboutvacancieId </td>
+                <td>@u.AboutvacancieName </td>
+
+                <td>
+                    <a href="/users/edit/@u.AboutvacancieId" class="btn btn-warning">Редагувати</a>
+                    <a href="/users/delete/@u.AboutvacancieId" class="btn btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
