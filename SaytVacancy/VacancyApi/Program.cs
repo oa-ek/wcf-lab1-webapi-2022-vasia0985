@@ -19,6 +19,8 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<EducationRepositories>();
+builder.Services.AddScoped<SkillRepositories>();
+builder.Services.AddScoped<FieldactivityRepositories>();
 
 builder.Services.AddAutoMapper(typeof(AppAutoMapper).Assembly);
 
