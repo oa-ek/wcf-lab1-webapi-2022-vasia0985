@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SaytVacancy\\Vacancy\\Vacancy.csproj": {}
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy\\Vacancy.csproj": {}
   },
   "projects": {
-    "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
         "projectName": "Vacancy.Core",
-        "projectPath": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
+        "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
         "packagesPath": "C:\\Users\\Vasyl\\.nuget\\packages\\",
-        "outputPath": "D:\\SaytVacancy\\Vacancy.Core\\obj\\",
+        "outputPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj": {
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
         "projectName": "Vacancy.Repository",
-        "projectPath": "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
+        "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
         "packagesPath": "C:\\Users\\Vasyl\\.nuget\\packages\\",
-        "outputPath": "D:\\SaytVacancy\\Vacancy.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
-                "projectPath": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj"
+              "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
+                "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "D:\\SaytVacancy\\Vacancy\\Vacancy.csproj": {
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy\\Vacancy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SaytVacancy\\Vacancy\\Vacancy.csproj",
+        "projectUniqueName": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy\\Vacancy.csproj",
         "projectName": "Vacancy",
-        "projectPath": "D:\\SaytVacancy\\Vacancy\\Vacancy.csproj",
+        "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy\\Vacancy.csproj",
         "packagesPath": "C:\\Users\\Vasyl\\.nuget\\packages\\",
-        "outputPath": "D:\\SaytVacancy\\Vacancy\\obj\\",
+        "outputPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,11 +192,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
-                "projectPath": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj"
+              "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
+                "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj"
               },
-              "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj": {
-                "projectPath": "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj"
+              "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj": {
+                "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj"
               }
             }
           }

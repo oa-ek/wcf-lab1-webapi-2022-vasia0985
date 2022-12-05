@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {}
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {}
   },
   "projects": {
-    "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
+    "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
         "projectName": "Vacancy.Core",
-        "projectPath": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
+        "projectPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
         "packagesPath": "C:\\Users\\Vasyl\\.nuget\\packages\\",
-        "outputPath": "D:\\SaytVacancy\\Vacancy.Core\\obj\\",
+        "outputPath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasyl\\AppData\\Roaming\\NuGet\\NuGet.Config",

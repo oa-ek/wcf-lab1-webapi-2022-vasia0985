@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,12 +13,25 @@ namespace Vacancy.Repository.Repositories
     public class FieldactivityRepositories
     {
         private readonly VacancyDbContext _ctx;
-
-        public FieldactivityRepositories(VacancyDbContext ctx)
+        private readonly IMapper _mapper;
+        public FieldactivityRepositories(VacancyDbContext ctx, IMapper mapper)
         {
             _ctx = ctx;
+            _mapper = mapper;
+        }
+        public async Task<IEnumerable<FieldactivityDto>> GetListAsync()
+        {
+            return _mapper.Map<IEnumerable<FieldactivityDto>>(await _ctx.Fieldactivities.ToListAsync());
         }
 
+        public async Task<Fieldactivity> AddFieldactivityByDtoAsync(FieldactivityCreateDto fieldactivitylDto)
+        {
+            var fieldactivity = new Fieldactivity();
+            fieldactivity.FieldactivityName = fieldactivitylDto.FieldactivityName;
+            _ctx.Fieldactivities.Add(fieldactivity);
+            await _ctx.SaveChangesAsync();
+            return _ctx.Fieldactivities.FirstOrDefault(x => x.FieldactivityName == fieldactivity.FieldactivityName);
+        }
         public async Task<Fieldactivity> AddFieldactivityAsync(Fieldactivity type)
         {
             _ctx.Fieldactivities.Add(type);
@@ -24,7 +39,7 @@ namespace Vacancy.Repository.Repositories
             return _ctx.Fieldactivities.FirstOrDefault(x => x.FieldactivityName == type.FieldactivityName);
         }
 
-        public List<Fieldactivity> GetFieldactivities()
+        public List<Fieldactivity> GetFieldactivity()
         {
             var typeList = _ctx.Fieldactivities.ToList();
             return typeList;
@@ -35,7 +50,7 @@ namespace Vacancy.Repository.Repositories
             return _ctx.Fieldactivities.FirstOrDefault(x => x.FieldactivityId == id);
         }
 
-        public Fieldactivity GetFieldactivityByName(string name)
+        public Fieldactivity GetFieldactivitylByName(string name)
         {
             return _ctx.Fieldactivities.FirstOrDefault(x => x.FieldactivityName == name);
         }
@@ -45,6 +60,11 @@ namespace Vacancy.Repository.Repositories
             _ctx.Remove(GetFieldactivity(id));
             await _ctx.SaveChangesAsync();
         }
-
+        public async Task UpdateFieldactivityAsync(FieldactivityCreateDto updatedFieldactivity)
+        {
+            var fieldactivity = _ctx.Fieldactivities.FirstOrDefault(x => x.FieldactivityId == updatedFieldactivity.FieldactivityId);
+            fieldactivity.FieldactivityName = updatedFieldactivity.FieldactivityName;
+            await _ctx.SaveChangesAsync();
+        }
     }
 }

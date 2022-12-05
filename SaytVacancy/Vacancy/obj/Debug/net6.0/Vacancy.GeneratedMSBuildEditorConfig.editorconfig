@@ -8,109 +8,109 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vacancy
 build_property.RootNamespace = Vacancy
-build_property.ProjectDir = D:\SaytVacancy\Vacancy\
+build_property.ProjectDir = C:\Users\Vasyl\Documents\GitHub\wcf-lab1-webapi-2022-vasia0985\SaytVacancy\Vacancy\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SaytVacancy\Vacancy
+build_property.MSBuildProjectDirectory = C:\Users\Vasyl\Documents\GitHub\wcf-lab1-webapi-2022-vasia0985\SaytVacancy\Vacancy
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SaytVacancy/Vacancy/Views/Aboutvacancie/AboutAdd.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Aboutvacancie/AboutAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXR2YWNhbmNpZVxBYm91dEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Aboutvacancie/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Aboutvacancie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXR2YWNhbmNpZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Company/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Company/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Education/Add.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Education/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Education/Delete.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Education/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Education/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Education/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Employer/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Employer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Experience/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Experience/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Fieldactivity/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Fieldactivity/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmllbGRhY3Rpdml0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Home/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Home/Privacy.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Information/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Information/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Logotype/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Logotype/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nb3R5cGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Requirement/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Requirement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWlyZW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Resume/AddResume.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Resume/AddResume.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lXEFkZFJlc3VtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Resume/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Resume/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Shared/Error.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Skill/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Skill/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Users/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Vacancy/Index.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Vacancy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/_ViewImports.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/_ViewStart.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SaytVacancy/Vacancy/Views/Shared/_Layout.cshtml]
+[C:/Users/Vasyl/Documents/GitHub/wcf-lab1-webapi-2022-vasia0985/SaytVacancy/Vacancy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vlloi43pkc

@@ -37,5 +37,16 @@ namespace VacancyApi.Controllers
             var createdEducation = await educationApiRepositories.AddEducationByDtoAsync(educationDto);
             return createdEducation;
         }
+        [HttpDelete("{id}")]
+        public async Task Delete(int id)
+        {
+            await educationApiRepositories.DeleteEducationAsync(id);
+        }
+
+        [HttpPut]
+        public async Task Edit(EducationCreateDto educ)
+        {
+            await educationApiRepositories.UpdateEducationAsync(educ);
+        }
     }
 }

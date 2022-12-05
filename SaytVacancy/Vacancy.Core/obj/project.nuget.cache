@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n+5dGkUgAa+PUXDAvZnOTDDCi51jKpRQ/VxgpQgFVvEVPMDpC0PW3NYMWNCAfg5jf1C0EG0UVM+e+1imgC+ycQ==",
+  "dgSpecHash": "wsiSzQptlR2Vf4iu61EFeQE7RJ1zgEU7JE/ohx55IQm9X3PwT7Fo/V+Ok3GfQM4lxpNPBULOPitbNTXsEI7bBQ==",
   "success": true,
-  "projectFilePath": "D:\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
+  "projectFilePath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Core\\Vacancy.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasyl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vasyl\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

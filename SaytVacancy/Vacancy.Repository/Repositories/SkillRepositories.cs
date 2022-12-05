@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,12 +14,25 @@ namespace Vacancy.Repository.Repositories
     {
 
         private readonly VacancyDbContext _ctx;
-
-        public SkillRepositories(VacancyDbContext ctx)
+        private readonly IMapper _mapper;
+        public SkillRepositories(VacancyDbContext ctx, IMapper mapper)
         {
             _ctx = ctx;
+            _mapper = mapper;
+        }
+        public async Task<IEnumerable<SkillDto>> GetListAsync()
+        {
+            return _mapper.Map<IEnumerable<SkillDto>>(await _ctx.Skills.ToListAsync());
         }
 
+        public async Task<Skill> AddSkillByDtoAsync(SkillCreateDto skillDto)
+        {
+            var skill = new Skill();
+            skill.SkillName = skillDto.SkillName;
+            _ctx.Skills.Add(skill);
+            await _ctx.SaveChangesAsync();
+            return _ctx.Skills.FirstOrDefault(x => x.SkillName == skill.SkillName);
+        }
         public async Task<Skill> AddSkillAsync(Skill type)
         {
             _ctx.Skills.Add(type);
@@ -46,6 +61,12 @@ namespace Vacancy.Repository.Repositories
             _ctx.Remove(GetSkill(id));
             await _ctx.SaveChangesAsync();
         }
-
+        public async Task UpdateSkillAsync(SkillCreateDto updatedSkill)
+        {
+            var skill = _ctx.Skills.FirstOrDefault(x => x.SkillId == updatedSkill.SkillId);
+            skill.SkillName = updatedSkill.SkillName;
+            await _ctx.SaveChangesAsync();
+        }
     }
 }
+

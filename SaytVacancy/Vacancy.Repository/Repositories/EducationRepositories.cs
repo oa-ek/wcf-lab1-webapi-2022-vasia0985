@@ -56,6 +56,11 @@ namespace Vacancy.Repository.Repositories
             _ctx.Remove(GetEducation(id));
             await _ctx.SaveChangesAsync();
         }
-
+        public async Task UpdateEducationAsync(EducationCreateDto updatedEducation)
+        {
+            var education = _ctx.Educations.FirstOrDefault(x => x.EducationId == updatedEducation.EducationId);
+            education.EducationName = updatedEducation.EducationName;
+            await _ctx.SaveChangesAsync();
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KF7nGcaBKeP3CwMa8GaDBH6pFCHMd/ttDFrWUO2JTSqaEPo368ZOBlXAP3BwPV7E+T/T7DxB+0G0dRQsh1/CWw==",
+  "dgSpecHash": "VTybdVnbYOMkQrAEF5gSoPerAmXP90ohmHentsSvawbkUe2F9u4fEfe13dbcomprqfAqakGvWZ4yDmJrwyF67Q==",
   "success": true,
-  "projectFilePath": "D:\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Vasyl\\Documents\\GitHub\\wcf-lab1-webapi-2022-vasia0985\\SaytVacancy\\Vacancy.Repository\\Vacancy.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasyl\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Vasyl\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
